@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title { 
+    color: rgb(4, 70, 14);
+    font-size: 65px;
+    letter-spacing: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(4, 70, 14);
+    width: 50vw;
+    margin: 2%;
+    justify-items: center;
+    padding: 1%;
+    padding-bottom: 4%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: block;
+}
+
+.cell {
+    background-color: darkgrey;
+    width: 12vw;
+    height: 17vh;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button { 
+    margin: 5%;
+    width: 15%;
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(4, 70, 14);
+    color: white;
+    letter-spacing: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div>h1{
+    font-size: 80px;
+}
